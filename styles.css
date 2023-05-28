@@ -1,0 +1,145 @@
+h1, a, hr, footer {
+  color: #cdff44;
+}
+
+h1, nav, form, table, hr, footer {
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: animation;
+  animation-timing-function: ease;
+  position: relative;
+}
+
+h5, nav a, label {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(#7744ff, #4470ff, #d344ff);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Sedgwick Ave Display', cursive;
+  text-decoration: underline;
+  text-align: center;
+  animation-duration: 1.5s;
+  z-index: 50;
+}
+
+h5 {
+  text-align: center;
+}
+
+nav {
+  border: 3px solid #cdff44;
+  width: 427px;
+  padding: 10px;
+  background-color: #0000dc;
+  border-radius: 10px;
+  left: 453px;
+  animation-duration: 1s;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a {
+  background-color: #cdff44;
+  color: #0000dc;
+  font-size: 19.4px;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+nav a:hover {
+  color: #26e500;
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: linear-gradient(#1a02ef, #0040e3, #a300ee);
+  width: 318px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 125px;
+  left: 37.75%;
+  font-size: 20px;
+  box-shadow: 3px 3px 3px #0040e3;
+  animation-duration: 2s;
+}
+
+button {
+  background-color: lightgreen;
+  width: 300px;
+  height: 50px;
+  border: 1px ridge darkgreen;
+  color: darkgreen;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+label {
+  color: #cdff44;;
+}
+
+input {
+  background-color: #565FFF;
+  color: #1410EC;
+  height: 25px;
+  border: 1px solid #008000;
+  accent-color: #565FFF;
+  font-size: 16px;
+}
+
+textarea {
+  background-color: #476CFF;
+  color: #0928E7;
+  accent-color: #476CFF;  
+  font-size: 20px;
+}
+
+select {
+  background-color: #7F5DFF;
+}
+
+.video {
+  background-color: #6665FF;
+}
+
+iframe {
+  border: 5px solid #cdff44;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+table {
+  margin-left: 30px;
+  right: 29px;
+  animation-duration: 2s;
+  z-index: 1;
+}
+
+td {
+  border: 5px solid #0000dc;
+  border-radius: 10px;;
+}
+
+hr, footer {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 18px;
+  animation-duration: 2.5s;
+  z-index: 1;
+}
+
+@keyframes animation {
+  0% { top: 1000px; }
+  100% { top: 0px; }
+}
